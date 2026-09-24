@@ -3,7 +3,7 @@
 Bu dosya, **Lisansüstü Araştırma ve Tez Takip Sistemi** uygulamasını üretmek için Vercel v0'ya verilen promptları ve alınan sonuçları içerir.
 
 **Araç:** Vercel v0  
-**Öğrenci:** İbrahim SÜNBÜL  
+**Öğrenci:** Berk Karataş 
 **Tarih:** 26 Ekim Pazartesi
 
 ---
