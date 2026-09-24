@@ -1,7 +1,7 @@
 # Lisansüstü Araştırma ve Tez Takip Sistemi
 
 **Araç:** Vercel v0  
-**Öğrenci:** İbrahim SÜNBÜL  
+**Öğrenci:** Berk Karataş
 **Ders:** Lisansüstü Ders — Ödev 1  
 **Sunum Tarihi:** 26 Ekim Pazartesi
 
