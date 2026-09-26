@@ -30,7 +30,7 @@ Vercel v0 kullanılarak üretilmiş, lisansüstü öğrencilerin tez süreçleri
 
 ## 🔗 Linkler
 
-- **Canlı Uygulama:** https://tez-takip.vercel.app (Vercel'de yayına alındıktan sonra güncellenecek)
+- **Canlı Uygulama:** https://tez-takip-sistemi.vercel.app
 - **Demo Videosu:** (3-5 dakikalık demo videosu bağlantısı buraya eklenecek)
 - **Sunum PDF:** `sunum/ibrahim-sunbul-v0-sunum.pdf`
 - **Kullanılan Promptlar:** `prompts/promptlar.md`
