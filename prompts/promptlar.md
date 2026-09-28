@@ -112,3 +112,20 @@ Bu dosya, **Lisansüstü Araştırma ve Tez Takip Sistemi** uygulamasını üret
 - **Ne oldu:** Uygulama geliştirme sırasında v0 ücretsiz plan kredisi tükendi, yeni promptlar için "Out of Credit" hatası alındı.
 - **Düzeltme:** Mevcut kodu ZIP olarak indirip GitHub'a manuel yükleme yapıldı.
 - **Öğrenilen:** v0 ücretsiz plan limitleri küçük ödevler için bile yetersiz olabilir; alternatif araçlar (Lovable, Bolt) ücretsiz planlarında daha cömerttir.
+
+
+### Hata 3: Filtre ve sıralama ilk denemede tam uygulanmadı
+
+**Ne oldu:**
+Filtre çubuğu istendiğinde v0, "The filter and sort already exist. I'll refine them to match your exact spec..." diyerek filtre ve sıralamanın zaten var olduğunu söyledi. Ancak istek ilk kez yapılıyordu; v0 önceki istekte bunu tam olarak uygulamamıştı.
+
+**İnsan müdahalesi:**
+Prompt daha net ve detaylı yazıldı:
+- Durum filtresi seçenekleri (Tümü / Bekliyor / Devam Ediyor / Tamamlandı) tek tek belirtildi
+- Tarih sıralama seçenekleri (En yakın tarih önce / En uzak tarih önce) açıkça yazıldı
+- İlerleme yüzdelerinin filtreden etkilenmemesi istendi
+- Boş sonuç mesajı ("Bu filtreye uygun görev yok") tanımlandı
+
+**Sonuç:** Net ve detaylı prompt sayesinde v0 istenen çıktıyı üretti. Ancak bu, AI araçlarının ilk istekte her zaman tam sonuç vermediğini, kullanıcının çıktıyı doğrulaması ve gerekirse daha net prompt yazması gerektiğini gösterdi.
+
+**Öğrenilen:** AI araçlarına verilen promptlar ne kadar net ve detaylı olursa, çıktı o kadar istenen sonuca yakın olur.
